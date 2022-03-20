@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage>
           icon: Icon(Icons.arrow_back, color: Color(0xFF545D68)),
           onPressed: () {},
         ),
-        title: Text('Делай Добро',
+        title: Text('Делаю Добро',
             style: TextStyle(
                 fontFamily: 'Varela',
                 fontSize: 20.0,
@@ -162,7 +162,7 @@ _getHeader() {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Делай Добро',
+                'Делаю Добро',
                 style: TextStyle(fontStyle: FontStyle.italic, fontSize: 26),
               )
             ],
@@ -206,7 +206,7 @@ class _VerifyState extends State<Verify> {
 
               // fillColor: ,
             ),
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(color: Colors.black),
           ),
           SizedBox(
             height: 15,
@@ -233,7 +233,7 @@ class _VerifyState extends State<Verify> {
               labelStyle: TextStyle(color: Colors.grey),
             ),
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
           SizedBox(

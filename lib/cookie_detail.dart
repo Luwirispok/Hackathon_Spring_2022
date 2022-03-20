@@ -24,7 +24,7 @@ class CookieDetail extends StatelessWidget {
             Navigator.of(context).pop();
           },
         ),
-        title: Text('Делай Добро',
+        title: Text('Делаю Добро',
             style: TextStyle(
                 fontFamily: 'Varela',
                 fontSize: 20.0,

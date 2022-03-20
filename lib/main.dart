@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
+      home: LoginPage(),
     );
   }
 }
@@ -161,10 +161,9 @@ _getHeader() {
             mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Image(image: AssetImage('assets/dis.png')),
               Text(
-                'Distillery',
-                style: TextStyle(fontStyle: FontStyle.italic, fontSize: 17),
+                'Делай Добро',
+                style: TextStyle(fontStyle: FontStyle.italic, fontSize: 26),
               )
             ],
           ),

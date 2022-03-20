@@ -38,29 +38,29 @@ class _SecondState extends State<Second> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.grey[900],
+        backgroundColor: Colors.orange[700],
         title: Center(child: text[_indexnew]),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        fixedColor: colors[_indexnew],
-        backgroundColor: Colors.grey[900],
-        items: [
-          BottomNavigationBarItem(
-            label: 'Profile',
-            icon: Icon(Icons.person),
-          ),
-          BottomNavigationBarItem(
-            label: 'Message',
-            icon: Icon(Icons.message),
-          ),
-          BottomNavigationBarItem(
-            label: 'Music',
-            icon: Icon(Icons.music_note),
-          ),
-        ],
-        currentIndex: _indexnew,
-        onTap: changeIndex,
-      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   fixedColor: colors[_indexnew],
+      //   backgroundColor: Colors.grey[900],
+      //   items: [
+      //     BottomNavigationBarItem(
+      //       label: 'Profile',
+      //       icon: Icon(Icons.person),
+      //     ),
+      //     BottomNavigationBarItem(
+      //       label: 'Message',
+      //       icon: Icon(Icons.message),
+      //     ),
+      //     BottomNavigationBarItem(
+      //       label: 'Music',
+      //       icon: Icon(Icons.music_note),
+      //     ),
+      //   ],
+      //   currentIndex: _indexnew,
+      //   onTap: changeIndex,
+      // ),
       body: Container(
         child: widgets[_indexnew],
       ),

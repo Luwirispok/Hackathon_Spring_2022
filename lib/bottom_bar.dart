@@ -1,8 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:mikailelslkd/news/wiget_first.dart';
 
 class BottomBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    answer() {
+      return Navigator.push<void>(
+        context,
+        MaterialPageRoute<void>(
+          builder: (BuildContext context) => Second(),
+        ),
+      );
+    }
+
     return BottomAppBar(
         shape: CircularNotchedRectangle(),
         notchMargin: 6.0,
@@ -30,7 +40,7 @@ class BottomBar extends StatelessWidget {
                             icon: Icon(Icons.home, color: Color(0xFFEF7532)),
                           ),
                           IconButton(
-                            onPressed: () {},
+                            onPressed: answer,
                             icon: Icon(Icons.person, color: Color(0xFFEF7532)),
                           )
                         ],
